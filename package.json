@@ -1,0 +1,15 @@
+{
+    "name": "modulo-notificaciones",
+    "version": "1.0.0",
+    "description": "Servicio para el envío de notificaciones mediante AWS SNS",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "express": "^4.18.2",
+      "aws-sdk": "^2.1356.0",
+      "dotenv": "^16.0.3"
+    }
+  }
+  
