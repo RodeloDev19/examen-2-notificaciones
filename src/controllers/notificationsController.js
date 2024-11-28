@@ -30,3 +30,4 @@ exports.sendNotification = async (req, res) => {
         res.status(500).json({ error: 'Error al enviar la notificación.', details: error.message });
     }
 };
+
